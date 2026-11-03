@@ -1,0 +1,35 @@
+<section class="hero" aria-labelledby="page-title">
+  <p class="status"><span aria-hidden="true"></span> Static build served by Nginx</p>
+  <p class="kicker">Angular + Wodby</p>
+  <h1 id="page-title">Your Angular app is running.</h1>
+  <p class="intro">
+    A single-page application with standalone components, zoneless change detection, client-side
+    routing and tests. Edit <code>src/app/pages/home/home.html</code> to start building.
+  </p>
+  <div class="actions">
+    <a class="primary" href="https://angular.dev/overview">Build with Angular</a>
+    <a routerLink="/about">See client-side routing</a>
+  </div>
+</section>
+
+<section class="details" aria-labelledby="build-title">
+  <div>
+    <p class="number">01</p>
+    <h2 id="build-title">Build</h2>
+    <p>Values compiled into this bundle when it was built.</p>
+  </div>
+  <dl>
+    <div>
+      <dt>Framework</dt>
+      <dd>Angular {{ version }}</dd>
+    </div>
+    <div>
+      <dt>Mode</dt>
+      <dd>{{ mode }}</dd>
+    </div>
+    <div>
+      <dt>Change detection</dt>
+      <dd>Zoneless</dd>
+    </div>
+  </dl>
+</section>
